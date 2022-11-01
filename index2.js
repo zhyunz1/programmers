@@ -29,7 +29,7 @@ function solution(array) {
         beforenum = array[i];
           
     }
-    if(flag) return -1; 
+    if(flag) return -1;  // 최빈값이 같다면 -1 리턴
     return mode;
     
     
