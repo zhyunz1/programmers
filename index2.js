@@ -30,7 +30,7 @@ function solution(array) {
           
     }
     if(flag) return -1;  // 최빈값이 같다면 -1 리턴
-    return mode;
+    return mode; // 최빈값 리턴
     
     
 
