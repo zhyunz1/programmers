@@ -7,6 +7,7 @@ function solution(array) {
     let mode = -1;  //최빈값인 수 
     let flag =false; // 최빈값이 똑같을 때 
     
+    let Sort = array.sort((a,b)=>a-b); // 배열정렬
     for(i =0 ; i< array.length;i++){
         if(beforenum!==array[i]){
             cnt =1 ; 
@@ -31,10 +32,10 @@ function solution(array) {
     }
     if(flag) return -1;  // 최빈값이 같다면 -1 리턴
     return mode; // 최빈값 리턴
-    
+    //nice
     
 
     
 }
-let num = [1,2,3,3,3,3,4] ;
+let num = [1,1,3,3,3,3,4] ;
 console.log(solution(num));
