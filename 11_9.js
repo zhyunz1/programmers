@@ -19,14 +19,7 @@ function sol(age){
     
 
     let age1 = age.toString() 
-    // for(let i=0;i<alpha.length;i++){
-    //     if(age1[i]===alpha[i][1]){
-    //         answer += alpha[i][0]
-    //     }
-        
-    // }
-
-    // return answer;
+    
 
     for(let i=0;i<age1.length;i++){
         for(let j=0; j<alpha.length;j++){
@@ -50,7 +43,7 @@ function sol2(emergency){
     // 원소 100까지 
     let answer=[];
 
-    let start = 0; 
+    
     
     
 
