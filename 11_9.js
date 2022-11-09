@@ -66,9 +66,19 @@ function sol2(emergency){
     
 }
 
-let l = [1,2,3,4,5,6,7] ;
+// Lv 0 순서쌍의 개수 
+function sol3(n){
+    let cnt=1 ; 
 
-console.log(sol2(l));
+    for(let i=1;i<n;i++){
+        if(n%i===0){
+            cnt+=1
+        }
+
+    }
+    return cnt;
+}
+console.log(sol3(100));
 
 
 

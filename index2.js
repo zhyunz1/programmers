@@ -22,7 +22,7 @@ function solution(array) {
             }
         }
         if(cnt> cnt2){
-            mode = array[i];
+            mode = array[i]; 
             cnt2 = cnt ;
             flag =false;
 
